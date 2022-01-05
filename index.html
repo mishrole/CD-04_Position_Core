@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile (Core)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-flex">
+                <h1 class="nav-title">Profile</h1>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#" class="active">My Profile</a></li>
+                    <li><a href="#">Find Connections</a></li>
+                    <li><button class="btn">Sign Out</button></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <div class="card">
+                        <div class="card-profile-header">
+                            <div class="profile">
+                                <img src="./assets/images/mitchell.jpg" alt="Mitchell Rodríguez">
+                            </div>
+                        </div>
+                        <div class="card-profile-body">
+                            <p class="card-profile-title">Mitchell Rodríguez</p>
+                            <p class="card-profile-subtitle">
+                                <i class="fas fa-map-marker-alt"></i> Lima, Perú</p>
+                            <div>
+                                <p>Developer | Cat lover | Problem Solver</p>
+                                <p>Creating solutions with Angular, JS, TS, C#, Java, and Kotlin</p>
+                            </div>
+                        </div>
+                        <div class="card-profile-footer">
+                            <a href="/" class="card-profile-cta">
+                                <i class="fas fa-cog"></i> <span>edit profile</span></a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header-dark">
+                            <span>Education</span>
+                        </div>
+                        <div class="card-body-dark">  <!-- TODO: change card-body-dark to card__body--dark -->
+                            <div class="education">
+                                <p class="education-item education-title">Coding Dojo - Full Stack Bootcamp</p>
+                                <p class="education-item education-date">Jan 2022 - Apr 2022</p>
+                                <p class="education-item education-description">Triple black belt in Python, MERN, and Java...</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <div class="card-header-dark">
+                            <span class="pill">2</span>
+                            <span>Connection Requests</span>
+                        </div>
+                        <div class="card-request-body">
+                            <ul class="car-list">
+                                <li class="card-list-item">
+                                    <div class="profile-small">
+                                        <img src="./assets/images/todd-s.jpg" alt="Todd E">
+                                        <span>Todd E</span>
+                                    </div>
+                                    <div class="card-actions">
+                                        <i class="fas fa-check"></i>
+                                        <i class="fas fa-times"></i>
+                                    </div>
+                                </li>
+                                <li class="card-list-item">
+                                    <div class="profile-small">
+                                        <img src="./assets/images/phil-s.jpg" alt="Phil K">
+                                        <span>Phil K</span>
+                                    </div>
+                                    <div class="card-actions">
+                                        <i class="fas fa-check"></i>
+                                        <i class="fas fa-times"></i>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header-dark">
+                            <div class="pill large">500+</div>
+                            <span>Your Connections</span>
+                        </div>
+                        <div class="card-body-dark">
+                            <ul class="card-list">
+                                <li class="card-list-item">
+                                    <div class="profile-small">
+                                        <img src="./assets/images/adrien-s.jpg" alt="Adrien D">
+                                        <span>Adrien D</span>
+                                    </div>
+                                </li>
+                                <li class="card-list-item">
+                                    <div class="profile-small">
+                                        <img src="./assets/images/anne-s.jpg" alt="Anne S">
+                                        <span>Anne J</span>
+                                    </div>
+                                </li>
+                                <li class="card-list-item">
+                                    <div class="profile-small">
+                                        <img src="./assets/images/alayne-s.jpg" alt=">Alayne T">
+                                        <span>Alayne T</span>
+                                    </div>
+                                </li>
+                                <li class="card-list-item">
+                                    <div class="profile-small">
+                                        <img src="./assets/images/arry-s.jpg" alt="Arry Y<">
+                                        <span>Arry Y</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#">View More</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+</body>
+</html>
